@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import './DrumPad';
 import DrumPad from './DrumPad';
 
 const sounds = [
@@ -16,11 +15,13 @@ const sounds = [
 ];
 
 const App = () => {
+
   return (
     <div className="App">
       {sounds.map(sound => (
         <DrumPad
-          id={sounds.id}
+          id={sound.id}
+          letter={sound.letter}
         />
       ))}
     </div>
