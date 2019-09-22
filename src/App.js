@@ -20,7 +20,7 @@ const App = () => {
     <div className="App">
       {sounds.map(sound => (
         <DrumPad
-
+          id={sounds.id}
         />
       ))}
     </div>
