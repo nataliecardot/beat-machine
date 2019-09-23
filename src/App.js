@@ -20,9 +20,6 @@ const App = () => {
     <div className="App">
       <div className="drum-machine">
         <div className="display">
-          <p>
-            Sample Text
-          </p>
         </div>
         <div className="drum-pads">
           {sounds.map(sound => (
