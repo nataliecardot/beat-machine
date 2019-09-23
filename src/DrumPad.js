@@ -16,7 +16,7 @@ const DrumPad = ({ id, letter, src }) => {
       id={id}
       onClick={handleClick}
     >
-      <p>{letter}</p>
+      <p className="letter">{letter}</p>
       <audio
         ref={audio}
         id={letter}

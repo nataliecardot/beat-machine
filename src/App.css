@@ -1,26 +1,55 @@
-.drum-machine {
+.App {
   background-color: #dcdcdc;
-  text-align: center;
   height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.drum-machine {
+  height: 85%;
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px 3px #333;
+  background-color: #fff;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas:
+    "display"
+    "drum-pads"
+    "drum-pads"
+    "drum-pads";
+}
+
+.display {
+  grid-area: display;
+  background-color: #a8bbc9;
 }
 
 .drum-pads {
-  height: 75vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  grid-area: drum-pads;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin: 30px;
 }
 
 .drum-pad {
-  border: 1px solid black;
-  height: 17vh;
-  width: 17vh;
+  cursor: pointer;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  background-color: #84eeff;
+  /* Makes pads equally spaced across the screen horizontally */
+  background-color: #aaaaaa;
+  transition: 0.2s;
+}
+
+.drum-pad:hover {
+  transform: scale(1.03);
+}
+
+.letter {
+  /* font-size: 2em; */
 }

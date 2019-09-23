@@ -17,15 +17,22 @@ const sounds = [
 const App = () => {
 
   return (
-    <div className="drum-machine">
-      <div className="drum-pads">
-        {sounds.map(sound => (
-          <DrumPad
-            id={sound.id}
-            letter={sound.letter}
-            src={sound.src}
-          />
-        ))}
+    <div className="App">
+      <div className="drum-machine">
+        <div className="display">
+          <p>
+            Sample Text
+          </p>
+        </div>
+        <div className="drum-pads">
+          {sounds.map(sound => (
+            <DrumPad
+              id={sound.id}
+              letter={sound.letter}
+              src={sound.src}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
