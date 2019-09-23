@@ -22,6 +22,7 @@ const App = () => {
         <DrumPad
           id={sound.id}
           letter={sound.letter}
+          src={sound.src}
         />
       ))}
     </div>
