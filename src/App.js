@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.scss';
 import DrumPad from './DrumPad';
 
@@ -16,10 +16,17 @@ const sounds = [
 
 const App = () => {
 
+  const [display, setDisplay] = useState('');
+
+  const handleDisplay = display => {
+    setDisplay(display);
+  }
+
   return (
     <div className="App">
       <div className="drum-machine">
         <div className="display">
+          <p>{display}</p>
         </div>
         <div className="drum-pads">
           {sounds.map(sound => (
@@ -27,6 +34,7 @@ const App = () => {
               id={sound.id}
               letter={sound.letter}
               src={sound.src}
+              handleDisplay={handleDisplay}
             />
           ))}
         </div>
