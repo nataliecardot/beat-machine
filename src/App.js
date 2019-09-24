@@ -3,15 +3,64 @@ import './App.scss';
 import DrumPad from './DrumPad';
 
 const sounds = [
-  { id: 'snare', letter: 'Q', src: 'https://www.myinstants.com/media/sounds/snare.mp3' },
-  { id: 'bass 1', letter: 'W', src: 'https://www.myinstants.com/media/sounds/bass-drum.mp3' },
-  { id: 'bongo', letter: 'E', src: 'http://tipiwiki.free.fr/snd/Percussion(4e)2.wav' },
-  { id: 'tom tom', letter: 'A', src: 'http://www.denhaku.com/r_box/sr16/sr16tom/loelectm.wav' },
-  { id: 'bass 3', letter: 'S', src: 'http://billor.chsh.chc.edu.tw/sound/bass4.wav' },
-  { id: 'shotgun', letter: 'D', src: 'http://david.guerrero.free.fr/Effects/ShotgunReload.wav' },
-  { id: 'high hat', letter: 'Z', src: 'http://www.denhaku.com/r_box/tr707/closed.wav' },
-  { id: 'drum hit', letter: 'X', src: 'http://www.masterbits.de/sc_docu/sounds1/1TM00013.MP3' },
-  { id: 'laser', letter: 'C', src: 'http://www.sa-matra.net/sounds/starcontrol/Umgah-Backzip.wav' },
+  {
+    id: 'snare',
+    letter: 'Q',
+    keycode: 81,
+    src:
+      'http://www.burnkit2600.com/temp/HR-16/HR-16-WAVs/12-ambient%20wood%20snr.wav'
+  },
+  {
+    id: 'bass',
+    letter: 'W',
+    keycode: 87,
+    src: 'http://www.denhaku.com/r_box/sr16/sr16bd/tightdbl.wav'
+  },
+  {
+    id: 'conga',
+    letter: 'E',
+    keycode: 69,
+    src: 'http://s1download-universal-soundbank.com/mp3/sounds/13871.mp3'
+  },
+  {
+    id: 'tom-tom',
+    letter: 'A',
+    keycode: 65,
+    src: 'http://www.denhaku.com/r_box/linn/midtom.wav'
+  },
+  {
+    id: 'bass kick',
+    letter: 'S',
+    keycode: 83,
+    src:
+      'http://dight310.byu.edu/media/audio/FreeLoops.com/3/3/Free%20Kick%20Sample%203-888-Free-Loops.com.mp3'
+  },
+  {
+    id: 'high hat',
+    letter: 'D',
+    keycode: 68,
+    src: 'http://www.denhaku.com/r_box/rx11/hh_open_1.wav'
+  },
+  {
+    id: 'side stick',
+    letter: 'Z',
+    keycode: 90,
+    src:
+      'http://www.burnkit2600.com/temp/HR-16/HR-16-WAVs/17-side%20stick%20snare.wav'
+  },
+  {
+    id: 'clap',
+    letter: 'X',
+    keycode: 88,
+    src: 'http://www.denhaku.com/r_box/linn/clap.wav'
+  },
+  {
+    id: 'closed high hat',
+    letter: 'C',
+    keycode: 67,
+    src:
+      'http://www.randomthink.net/labs/html5drums/drumkit/Hi%20Hat%20Closed.wav'
+  }
 ];
 
 const App = () => {
@@ -23,12 +72,12 @@ const App = () => {
   }
 
   return (
-    <div className="App">
-      <div className="drum-machine">
-        <div className="display">
-          <p className="sound-name">{display}</p>
+    <div className='App'>
+      <div className='drum-machine'>
+        <div className='display'>
+          <p className='sound-name'>{display}</p>
         </div>
-        <div className="drum-pads">
+        <div className='drum-pads'>
           {sounds.map(sound => (
             <DrumPad
               key={sound.id}
