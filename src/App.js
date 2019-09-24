@@ -26,7 +26,7 @@ const App = () => {
     <div className="App">
       <div className="drum-machine">
         <div className="display">
-          <p>{display}</p>
+          <p className="sound-name">{display}</p>
         </div>
         <div className="drum-pads">
           {sounds.map(sound => (
