@@ -17,10 +17,10 @@ const sounds = [
     src: 'http://www.denhaku.com/r_box/sr16/sr16bd/tightdbl.wav'
   },
   {
-    id: 'conga',
+    id: 'shotgun',
     letter: 'E',
     keycode: 69,
-    src: 'http://s1download-universal-soundbank.com/mp3/sounds/13871.mp3'
+    src: 'http://david.guerrero.free.fr/Effects/ShotgunReload.wav'
   },
   {
     id: 'tom-tom',
