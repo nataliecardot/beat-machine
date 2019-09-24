@@ -31,6 +31,7 @@ const App = () => {
         <div className="drum-pads">
           {sounds.map(sound => (
             <DrumPad
+              key={sound.id}
               id={sound.id}
               letter={sound.letter}
               src={sound.src}
