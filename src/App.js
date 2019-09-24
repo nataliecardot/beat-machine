@@ -11,10 +11,10 @@ const sounds = [
       'http://www.burnkit2600.com/temp/HR-16/HR-16-WAVs/12-ambient%20wood%20snr.wav'
   },
   {
-    id: 'bass',
+    id: 'bass 1',
     letter: 'W',
     keycode: 87,
-    src: 'http://www.denhaku.com/r_box/sr16/sr16bd/tightdbl.wav'
+    src: 'https://www.myinstants.com/media/sounds/bass-drum.mp3'
   },
   {
     id: 'shotgun',
