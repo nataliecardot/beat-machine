@@ -36,7 +36,7 @@ $border-radius: 5px;
 .drum-pads {
   grid-area: drum-pads;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template: repeat(3, minmax(0, 1fr)) / repeat(3, minmax(0, 1fr));
   grid-gap: 10px;
   margin: 15px;
 }

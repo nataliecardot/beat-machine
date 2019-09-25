@@ -8,19 +8,19 @@ const sounds = [
     letter: 'Q',
     keycode: 81,
     src:
-      'http://www.burnkit2600.com/temp/HR-16/HR-16-WAVs/12-ambient%20wood%20snr.wav'
+      'https://www.myinstants.com/media/sounds/snare.mp3'
   },
   {
-    id: 'bass',
+    id: 'bass boost',
     letter: 'W',
     keycode: 87,
-    src: 'https://www.myinstants.com/media/sounds/bass-drum.mp3'
+    src: 'https://www.myinstants.com/media/sounds/bass-boost_oJjgiYr.mp3'
   },
   {
-    id: 'shotgun',
+    id: 'bass kick',
     letter: 'E',
     keycode: 69,
-    src: 'http://david.guerrero.free.fr/Effects/ShotgunReload.wav'
+    src: 'http://dight310.byu.edu/media/audio/FreeLoops.com/3/3/Free%20Kick%20Sample%203-888-Free-Loops.com.mp3'
   },
   {
     id: 'tom-tom',
@@ -29,37 +29,37 @@ const sounds = [
     src: 'http://www.denhaku.com/r_box/linn/midtom.wav'
   },
   {
-    id: 'bass kick',
+    id: 'shotgun reload',
     letter: 'S',
     keycode: 83,
     src:
-      'http://dight310.byu.edu/media/audio/FreeLoops.com/3/3/Free%20Kick%20Sample%203-888-Free-Loops.com.mp3'
+      'http://david.guerrero.free.fr/Effects/ShotgunReload.wav'
   },
   {
-    id: 'high hat',
+    id: 'cymbal',
     letter: 'D',
     keycode: 68,
-    src: 'http://www.denhaku.com/r_box/rx11/hh_open_1.wav'
+    src: 'https://www.myinstants.com/media/sounds/vdub1-crash-18.mp3'
   },
   {
-    id: 'side stick',
+    id: 'closed hi-hat',
     letter: 'Z',
     keycode: 90,
     src:
-      'http://www.burnkit2600.com/temp/HR-16/HR-16-WAVs/17-side%20stick%20snare.wav'
+      'https://www.myinstants.com/media/sounds/behemoth-closed-26_4fwxFnC.mp3'
   },
   {
     id: 'clap',
     letter: 'X',
     keycode: 88,
-    src: 'http://www.denhaku.com/r_box/linn/clap.wav'
+    src: 'https://www.myinstants.com/media/sounds/clap.mp3'
   },
   {
-    id: 'closed high hat',
+    id: 'open hi-hat',
     letter: 'C',
     keycode: 67,
     src:
-      'http://www.randomthink.net/labs/html5drums/drumkit/Hi%20Hat%20Closed.wav'
+      'https://www.myinstants.com/media/sounds/vdub1-op-hihat-010_5elr79H.mp3'
   }
 ];
 
