@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 // Destructuring used to pass props (see https://www.youtube.com/watch?v=CFUysPqYC4Y)
 const DrumPad = ({ id, letter, src, handleDisplay }) => {
