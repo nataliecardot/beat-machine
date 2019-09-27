@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beat-machine/static/css/main.c43b272c.chunk.css",
+    "main.css": "/beat-machine/static/css/main.6f1f2e5b.chunk.css",
     "main.js": "/beat-machine/static/js/main.4d469fca.chunk.js",
     "main.js.map": "/beat-machine/static/js/main.4d469fca.chunk.js.map",
     "runtime-main.js": "/beat-machine/static/js/runtime-main.ba6d7fb0.js",
@@ -8,8 +8,8 @@
     "static/js/2.cde5230b.chunk.js": "/beat-machine/static/js/2.cde5230b.chunk.js",
     "static/js/2.cde5230b.chunk.js.map": "/beat-machine/static/js/2.cde5230b.chunk.js.map",
     "index.html": "/beat-machine/index.html",
-    "precache-manifest.2d067314c3de78aa93c9f4f6c1e6ba7d.js": "/beat-machine/precache-manifest.2d067314c3de78aa93c9f4f6c1e6ba7d.js",
+    "precache-manifest.1d76a69364e6e83dfb5adb1d1f67215f.js": "/beat-machine/precache-manifest.1d76a69364e6e83dfb5adb1d1f67215f.js",
     "service-worker.js": "/beat-machine/service-worker.js",
-    "static/css/main.c43b272c.chunk.css.map": "/beat-machine/static/css/main.c43b272c.chunk.css.map"
+    "static/css/main.6f1f2e5b.chunk.css.map": "/beat-machine/static/css/main.6f1f2e5b.chunk.css.map"
   }
 }

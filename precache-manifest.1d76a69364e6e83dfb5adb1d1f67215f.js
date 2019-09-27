@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "205ba12fe73f224186c2c97f90f2ef2b",
+    "revision": "0800c4cfac0942cdecc647174af325c4",
     "url": "/beat-machine/index.html"
   },
   {
-    "revision": "6ff91994c3609c073a1d",
-    "url": "/beat-machine/static/css/main.c43b272c.chunk.css"
+    "revision": "c85e678626d09107917e",
+    "url": "/beat-machine/static/css/main.6f1f2e5b.chunk.css"
   },
   {
     "revision": "6a1f924751af5aeeb0e5",
     "url": "/beat-machine/static/js/2.cde5230b.chunk.js"
   },
   {
-    "revision": "6ff91994c3609c073a1d",
+    "revision": "c85e678626d09107917e",
     "url": "/beat-machine/static/js/main.4d469fca.chunk.js"
   },
   {
