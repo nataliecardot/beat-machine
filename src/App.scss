@@ -24,6 +24,7 @@ $border-radius: 5px;
   width: 40%;
   /* offset-x | offset-y | blur-radius | spread-radius. Spread radius: Positive values cause the shadow to expand and grow bigger, negative values cause shadow to shrink */
   box-shadow: 0 10px 10px -5px #979797;
+  border-radius: $border-radius;
   display: grid;
   // fr units only apply to free space, so they are calculated after gap (formerly grid-gap) lengths applied
   grid-template-rows: 1fr 3fr;
@@ -38,7 +39,7 @@ $border-radius: 5px;
   grid-area: display;
   background-color: #ffac81;
   background-image: linear-gradient(350deg, #ffac81 0%, #f0847c 75%);
-  border-radius: 5px 5px 0 0;
+  border-radius: $border-radius $border-radius 0 0;
   // Sometimes needed, when justify-content isn't centering. Only applies within its space, so it doesn't ensure it is centered within its enclosing container
   text-align: center;
   display: flex;
