@@ -76,7 +76,7 @@ body, html {
 /* ----------------- MEDIA QUERIES ---------------- */
 
 /* Small screens */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (orientation: portrait) {
   .drum-machine {
     width: 90%;
     height: 70%;
