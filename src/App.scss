@@ -37,7 +37,7 @@ $border-radius: 5px;
 .display {
   grid-area: display;
   background-color: #ffac81;
-  background-image: linear-gradient(315deg, #ffac81 0%, #ff928b 74%);
+  background-image: linear-gradient(350deg, #ffac81 0%, #f0847c 75%);
   border-radius: 5px 5px 0 0;
   // Sometimes needed, when justify-content isn't centering. Only applies within its space, so it doesn't ensure it is centered within its enclosing container
   text-align: center;
