@@ -22,10 +22,8 @@ $border-radius: 5px;
 .drum-machine {
   height: 85%;
   width: 40%;
-  border-radius: $border-radius;
   /* offset-x | offset-y | blur-radius | spread-radius. Spread radius: Positive values cause the shadow to expand and grow bigger, negative values cause shadow to shrink */
-  box-shadow: 0 10px 10px -5px;
-  background-color: #fff;
+  box-shadow: 0 10px 10px -5px #979797;
   display: grid;
   // fr units only apply to free space, so they are calculated after gap (formerly grid-gap) lengths applied
   grid-template-rows: 1fr 3fr;
@@ -56,7 +54,9 @@ $border-radius: 5px;
   // rows / columns
   grid-template: repeat(3, minmax(0, 1fr)) / repeat(3, minmax(0, 1fr));
   gap: 10px;
-  margin: 12px;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 0 0 $border-radius $border-radius;
 }
 
 .drum-pad {
