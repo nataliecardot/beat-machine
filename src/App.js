@@ -6,8 +6,7 @@ const sounds = [
   {
     id: 'snare',
     letter: 'Q',
-    src:
-      'https://www.myinstants.com/media/sounds/snare.mp3'
+    src: 'https://www.myinstants.com/media/sounds/snare.mp3'
   },
   {
     id: 'shotgun reload',
