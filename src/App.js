@@ -6,7 +6,7 @@ const sounds = [
   {
     id: 'snare',
     letter: 'Q',
-    src: 'https://www.myinstants.com/media/sounds/snare.mp3'
+    src: 'https://audio.jukehost.co.uk/5635ca67fded31f2b0f3a14e310fb6e15995d2df/a88fd649f51'
   },
   {
     id: 'shotgun reload',
@@ -26,30 +26,28 @@ const sounds = [
   {
     id: 'pryda snare',
     letter: 'S',
-    src:
-      'https://www.myinstants.com/media/sounds/prydasnare.mp3'
+    src: 'https://audio.jukehost.co.uk/5635ca67fded31f2b0f3a14e310fb6e15995d2df/b3e9cabb008'
   },
   {
     id: 'kick drum',
     letter: 'D',
-    src: 'https://www.myinstants.com/media/sounds/vdub1-kick-006.mp3'
+    src: 'https://audio.jukehost.co.uk/5635ca67fded31f2b0f3a14e310fb6e15995d2df/8b233ccfd7a'
   },
   {
     id: 'closed hi-hat',
     letter: 'Z',
     src:
-      'https://www.myinstants.com/media/sounds/behemoth-closed-26_4fwxFnC.mp3'
+      'https://audio.jukehost.co.uk/5635ca67fded31f2b0f3a14e310fb6e15995d2df/0e579fff2af'
   },
   {
     id: 'clap',
     letter: 'X',
-    src: 'https://www.myinstants.com/media/sounds/clap.mp3'
+    src: 'https://audio.jukehost.co.uk/5635ca67fded31f2b0f3a14e310fb6e15995d2df/2c8b0d9d3a2'
   },
   {
     id: 'open hi-hat',
     letter: 'C',
-    src:
-      'https://www.myinstants.com/media/sounds/vdub1-op-hihat-010_5elr79H.mp3'
+    src: 'https://audio.jukehost.co.uk/5635ca67fded31f2b0f3a14e310fb6e15995d2df/6ae4bf4aa52'
   }
 ];
 
