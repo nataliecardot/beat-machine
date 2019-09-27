@@ -2,6 +2,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Nova Round", sans-serif;
 }
 
 * {
@@ -48,9 +49,9 @@ $border-radius: 5px;
   grid-area: drum-pads;
   display: grid;
   // rows / columns
-  grid-template: repeat(3, 1fr) / repeat(3, minmax(0, 1fr));
+  grid-template: repeat(3, minmax(0, 1fr)) / repeat(3, minmax(0, 1fr));
   gap: 10px;
-  margin: 15px;
+  margin: 12px;
 }
 
 .drum-pad {
@@ -65,7 +66,7 @@ $border-radius: 5px;
 
 .letter {
   color: white;
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
 
 // Parent div of .sound-name
@@ -81,7 +82,7 @@ $border-radius: 5px;
   color: #fff;
 }
 
-/* ----------------- MEDIA QUERIES ---------------- */
+/* ----- MEDIA QUERIES ----- */
 
 /* Small screens */
 @media screen and (max-width: 767px) and (orientation: portrait) {
@@ -111,7 +112,7 @@ $border-radius: 5px;
     }
 
     .drum-pads {
-      grid-gap: 15px;
+      gap: 15px;
     }
 }
 
