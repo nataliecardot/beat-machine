@@ -2,52 +2,61 @@ import React, { useState } from 'react';
 import './App.scss';
 import DrumPad from './DrumPad';
 
+import snare from './sounds/snare.mp3';
+import shotgunReload from './sounds/shotgun-reload.wav';
+import bassKick from './sounds/bass-kick.mp3';
+import tomTom from './sounds/tom-tom.wav';
+import prydaSnare from './sounds/pryda-snare.mp3';
+import kickDrum from './sounds/kick-drum.mp3';
+import closedHiHat from './sounds/closed-hi-hat.mp3';
+import clap from './sounds/clap.mp3';
+import openHiHat from './sounds/open-hi-hat.mp3';
+
 const sounds = [
   {
     id: 'snare',
     letter: 'Q',
-    src: 'https://audio.jukehost.co.uk/5635ca67fded31f2b0f3a14e310fb6e15995d2df/a88fd649f51'
+    src: snare
   },
   {
     id: 'shotgun reload',
     letter: 'W',
-    src: 'http://david.guerrero.free.fr/Effects/ShotgunReload.wav'
+    src: shotgunReload
   },
   {
     id: 'bass kick',
     letter: 'E',
-    src: 'http://dight310.byu.edu/media/audio/FreeLoops.com/3/3/Free%20Kick%20Sample%203-888-Free-Loops.com.mp3'
+    src: bassKick
   },
   {
     id: 'tom-tom',
     letter: 'A',
-    src: 'http://www.denhaku.com/r_box/linn/midtom.wav'
+    src: tomTom
   },
   {
     id: 'pryda snare',
     letter: 'S',
-    src: 'https://audio.jukehost.co.uk/5635ca67fded31f2b0f3a14e310fb6e15995d2df/b3e9cabb008'
+    src: prydaSnare
   },
   {
     id: 'kick drum',
     letter: 'D',
-    src: 'https://audio.jukehost.co.uk/5635ca67fded31f2b0f3a14e310fb6e15995d2df/8b233ccfd7a'
+    src: kickDrum
   },
   {
     id: 'closed hi-hat',
     letter: 'Z',
-    src:
-      'https://audio.jukehost.co.uk/5635ca67fded31f2b0f3a14e310fb6e15995d2df/0e579fff2af'
+    src: closedHiHat
   },
   {
     id: 'clap',
     letter: 'X',
-    src: 'https://audio.jukehost.co.uk/5635ca67fded31f2b0f3a14e310fb6e15995d2df/2c8b0d9d3a2'
+    src: clap
   },
   {
     id: 'open hi-hat',
     letter: 'C',
-    src: 'https://audio.jukehost.co.uk/5635ca67fded31f2b0f3a14e310fb6e15995d2df/6ae4bf4aa52'
+    src: openHiHat
   }
 ];
 
