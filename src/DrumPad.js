@@ -15,12 +15,14 @@ const DrumPad = ({ id, letter, src, handleDisplay }) => {
 
   const handleClick = () => {
     audio.current.play();
+    audio.current.currentTime = 0;
     handleDisplay(id);
   }
 
   const handleKeydown = e => {
     if (e.keyCode === letter.charCodeAt()) {
       audio.current.play();
+      audio.current.currentTime = 0;
       handleDisplay(id);
     }
   }

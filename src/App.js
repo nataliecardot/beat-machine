@@ -10,9 +10,9 @@ const sounds = [
       'https://www.myinstants.com/media/sounds/snare.mp3'
   },
   {
-    id: 'meow',
+    id: 'shotgun reload',
     letter: 'W',
-    src: 'https://www.myinstants.com/media/sounds/meow2.mp3'
+    src: 'http://david.guerrero.free.fr/Effects/ShotgunReload.wav'
   },
   {
     id: 'bass kick',
@@ -25,15 +25,15 @@ const sounds = [
     src: 'http://www.denhaku.com/r_box/linn/midtom.wav'
   },
   {
-    id: 'shotgun reload',
+    id: 'pryda snare',
     letter: 'S',
     src:
-      'http://david.guerrero.free.fr/Effects/ShotgunReload.wav'
+      'https://www.myinstants.com/media/sounds/prydasnare.mp3'
   },
   {
-    id: 'cymbal',
+    id: 'kick drum',
     letter: 'D',
-    src: 'https://www.myinstants.com/media/sounds/vdub1-crash-18.mp3'
+    src: 'https://www.myinstants.com/media/sounds/vdub1-kick-006.mp3'
   },
   {
     id: 'closed hi-hat',
