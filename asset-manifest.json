@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c43b272c.chunk.css",
-    "main.js": "/static/js/main.8ccb09b2.chunk.js",
-    "main.js.map": "/static/js/main.8ccb09b2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0016c3c5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0016c3c5.js.map",
-    "static/js/2.cde5230b.chunk.js": "/static/js/2.cde5230b.chunk.js",
-    "static/js/2.cde5230b.chunk.js.map": "/static/js/2.cde5230b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.1b365ec7f009d4c40a74410ef32959e7.js": "/precache-manifest.1b365ec7f009d4c40a74410ef32959e7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c43b272c.chunk.css.map": "/static/css/main.c43b272c.chunk.css.map"
+    "main.css": "/beat-machine/static/css/main.c43b272c.chunk.css",
+    "main.js": "/beat-machine/static/js/main.4d469fca.chunk.js",
+    "main.js.map": "/beat-machine/static/js/main.4d469fca.chunk.js.map",
+    "runtime-main.js": "/beat-machine/static/js/runtime-main.ba6d7fb0.js",
+    "runtime-main.js.map": "/beat-machine/static/js/runtime-main.ba6d7fb0.js.map",
+    "static/js/2.cde5230b.chunk.js": "/beat-machine/static/js/2.cde5230b.chunk.js",
+    "static/js/2.cde5230b.chunk.js.map": "/beat-machine/static/js/2.cde5230b.chunk.js.map",
+    "index.html": "/beat-machine/index.html",
+    "precache-manifest.2d067314c3de78aa93c9f4f6c1e6ba7d.js": "/beat-machine/precache-manifest.2d067314c3de78aa93c9f4f6c1e6ba7d.js",
+    "service-worker.js": "/beat-machine/service-worker.js",
+    "static/css/main.c43b272c.chunk.css.map": "/beat-machine/static/css/main.c43b272c.chunk.css.map"
   }
 }
