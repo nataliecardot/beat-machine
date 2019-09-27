@@ -10,9 +10,9 @@ const sounds = [
       'https://www.myinstants.com/media/sounds/snare.mp3'
   },
   {
-    id: 'bass boost',
+    id: 'meow',
     letter: 'W',
-    src: 'https://www.myinstants.com/media/sounds/bass-boost_oJjgiYr.mp3'
+    src: 'https://www.myinstants.com/media/sounds/meow2.mp3'
   },
   {
     id: 'bass kick',
@@ -57,8 +57,10 @@ const sounds = [
 const App = () => {
 
   const [display, setDisplay] = useState('');
+  const [soundTriggered, setSoundTriggered] = useState(false);
 
   const handleDisplay = display => {
+    setSoundTriggered(true);
     setDisplay(display);
   }
 
@@ -66,6 +68,7 @@ const App = () => {
     <div className='App'>
       <div className='drum-machine'>
         <div className='display'>
+          {!soundTriggered ? <p className="start-text">Select the keys (click or use your keyboard) to play sounds.</p> : null}
           <p className='sound-name'>{display}</p>
         </div>
         <div className='drum-pads'>
