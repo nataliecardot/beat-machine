@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5857b6a259568fd5140c3dfef4cb4982",
+    "revision": "05a4118521118eae13204d1d2c711aff",
     "url": "/beat-machine/index.html"
   },
   {
-    "revision": "6e466de6429ad632f930",
+    "revision": "5f301da565510fa2611b",
     "url": "/beat-machine/static/css/main.7d8090b4.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/beat-machine/static/js/2.9503c5d9.chunk.js"
   },
   {
-    "revision": "6e466de6429ad632f930",
-    "url": "/beat-machine/static/js/main.e2e49823.chunk.js"
+    "revision": "5f301da565510fa2611b",
+    "url": "/beat-machine/static/js/main.7bf8bae0.chunk.js"
   },
   {
     "revision": "bb2ba12a3170116b16b1",
