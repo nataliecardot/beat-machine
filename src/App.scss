@@ -97,12 +97,43 @@ $border-radius: 5px;
     height: 70%;
   }
 
-  .display {
-    padding: 10px;
+  .start-text {
+    font-size: 1.3rem;
   }
 
   .sound-name {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
+  }
+
+  .letter {
+    display: none;
+  }
+
+  .display {
+    padding: 7px;
+  }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .drum-machine {
+    width: 60%;
+    height: 90%;
+  }
+
+  .start-text {
+    font-size: 1.3rem;
+  }
+
+  .sound-name {
+    font-size: 2.5rem;
+  }
+
+  .letter {
+    display: none;
+  }
+
+  .display {
+    padding: 7px;
   }
 }
 
@@ -111,6 +142,14 @@ $border-radius: 5px;
   .drum-machine {
     width: 90%;
     height: 75%;
+  }
+
+  .letter {
+    display: none;
+  }
+
+  .start-text {
+    font-size: 2.2rem;
   }
 }
 
@@ -127,6 +166,14 @@ $border-radius: 5px;
 
     .drum-pads {
       gap: 15px;
+    }
+
+    .letter {
+      display: none;
+    }
+
+    .start-text {
+      font-size: 2.2rem;
     }
 }
 

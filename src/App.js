@@ -67,7 +67,7 @@ const App = () => {
     <div className='App'>
       <div className='drum-machine'>
         <div className='display'>
-          {!soundTriggered ? <p className="start-text">Select the keys (click or use your keyboard) to play sounds.</p> : null}
+          {!soundTriggered ? <p className="start-text">Select the keys to play sounds.</p> : null}
           <p className='sound-name'>{display}</p>
         </div>
         <div className='drum-pads'>
