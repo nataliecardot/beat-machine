@@ -75,11 +75,12 @@ $border-radius: 5px;
 .start-text {
   font-size: 1.6em;
   color: #fff;
+  margin: 15px;
 }
 
 .letter {
   color: white;
-  font-size: 1.6em;
+  font-size: 1.8em;
   color: #fff;
 }
 
@@ -108,10 +109,6 @@ $border-radius: 5px;
   .letter {
     display: none;
   }
-
-  .display {
-    padding: 7px;
-  }
 }
 
 @media screen and (max-width: 767px) and (orientation: landscape) {
@@ -130,10 +127,6 @@ $border-radius: 5px;
 
   .letter {
     display: none;
-  }
-
-  .display {
-    padding: 7px;
   }
 }
 
