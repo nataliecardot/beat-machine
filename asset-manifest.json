@@ -1,15 +1,24 @@
 {
   "files": {
     "main.css": "/beat-machine/static/css/main.7d8090b4.chunk.css",
-    "main.js": "/beat-machine/static/js/main.7bf8bae0.chunk.js",
-    "main.js.map": "/beat-machine/static/js/main.7bf8bae0.chunk.js.map",
+    "main.js": "/beat-machine/static/js/main.d2ba0ac8.chunk.js",
+    "main.js.map": "/beat-machine/static/js/main.d2ba0ac8.chunk.js.map",
     "runtime-main.js": "/beat-machine/static/js/runtime-main.ba6d7fb0.js",
     "runtime-main.js.map": "/beat-machine/static/js/runtime-main.ba6d7fb0.js.map",
-    "static/js/2.9503c5d9.chunk.js": "/beat-machine/static/js/2.9503c5d9.chunk.js",
-    "static/js/2.9503c5d9.chunk.js.map": "/beat-machine/static/js/2.9503c5d9.chunk.js.map",
+    "static/js/2.f94ccb0f.chunk.js": "/beat-machine/static/js/2.f94ccb0f.chunk.js",
+    "static/js/2.f94ccb0f.chunk.js.map": "/beat-machine/static/js/2.f94ccb0f.chunk.js.map",
     "index.html": "/beat-machine/index.html",
-    "precache-manifest.d699329ca9a8c885acd4142f02cf43e1.js": "/beat-machine/precache-manifest.d699329ca9a8c885acd4142f02cf43e1.js",
+    "precache-manifest.ec84581687cef6633c6a0649ce91a9f2.js": "/beat-machine/precache-manifest.ec84581687cef6633c6a0649ce91a9f2.js",
     "service-worker.js": "/beat-machine/service-worker.js",
-    "static/css/main.7d8090b4.chunk.css.map": "/beat-machine/static/css/main.7d8090b4.chunk.css.map"
+    "static/css/main.7d8090b4.chunk.css.map": "/beat-machine/static/css/main.7d8090b4.chunk.css.map",
+    "static/media/bass-kick.mp3": "/beat-machine/static/media/bass-kick.0a2d8578.mp3",
+    "static/media/clap.mp3": "/beat-machine/static/media/clap.7f2bf209.mp3",
+    "static/media/closed-hi-hat.mp3": "/beat-machine/static/media/closed-hi-hat.17ca3c6f.mp3",
+    "static/media/kick-drum.mp3": "/beat-machine/static/media/kick-drum.e1a710fc.mp3",
+    "static/media/open-hi-hat.mp3": "/beat-machine/static/media/open-hi-hat.bb508c0f.mp3",
+    "static/media/pryda-snare.mp3": "/beat-machine/static/media/pryda-snare.53405b9a.mp3",
+    "static/media/shotgun-reload.wav": "/beat-machine/static/media/shotgun-reload.bf47d145.wav",
+    "static/media/snare.mp3": "/beat-machine/static/media/snare.7f126450.mp3",
+    "static/media/tom-tom.wav": "/beat-machine/static/media/tom-tom.e70492c3.wav"
   }
 }
