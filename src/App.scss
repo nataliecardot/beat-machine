@@ -17,8 +17,6 @@ $border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  color: #495057;
 }
 
 .drum-machine {
@@ -93,9 +91,14 @@ $border-radius: 5px;
 
 /* Small screens */
 @media screen and (max-width: 767px) and (orientation: portrait) {
+  .App {
+    align-items: flex-start;
+    padding-top: 2em;
+  }
+
   .drum-machine {
-    width: 90%;
-    height: 70%;
+    width: 95%;
+    height: 75%;
   }
 
   .start-text {
@@ -113,8 +116,8 @@ $border-radius: 5px;
 
 @media screen and (max-width: 767px) and (orientation: landscape) {
   .drum-machine {
-    width: 60%;
-    height: 90%;
+    width: 40%;
+    height: 95%;
   }
 
   .start-text {
