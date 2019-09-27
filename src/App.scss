@@ -91,11 +91,6 @@ $border-radius: 5px;
 
 /* Small screens */
 @media screen and (max-width: 767px) and (orientation: portrait) {
-  .App {
-    align-items: flex-start;
-    padding-top: 2em;
-  }
-
   .drum-machine {
     width: 95%;
     height: 75%;
