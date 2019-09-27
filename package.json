@@ -1,5 +1,6 @@
 {
   "name": "beat-machine",
+  "homepage": "https://nataliecardot.com/beat-machine",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +11,6 @@
     "react-scripts": "3.1.2"
   },
   "scripts": {
-    "homepage": "https://nataliecardot.com/beat-machine",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
