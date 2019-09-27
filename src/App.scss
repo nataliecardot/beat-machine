@@ -1,5 +1,9 @@
 $border-radius: 5px;
 
+body, html {
+  height: 100vh;
+}
+
 .App {
   background-color: #f0f0f0;
   height: 100vh;
@@ -36,8 +40,8 @@ $border-radius: 5px;
 .drum-pads {
   grid-area: drum-pads;
   display: grid;
-  grid-template: repeat(3, minmax(0, 1fr)) / repeat(3, minmax(0, 1fr));
-  grid-gap: 10px;
+  grid-template: repeat(3, 1fr) / repeat(3, minmax(0, 1fr));
+  gap: 10px;
   margin: 15px;
 }
 
@@ -75,7 +79,7 @@ $border-radius: 5px;
 @media screen and (max-width: 767px) {
   .drum-machine {
     width: 90%;
-    height: 75%;
+    height: 70%;
   }
 }
 
